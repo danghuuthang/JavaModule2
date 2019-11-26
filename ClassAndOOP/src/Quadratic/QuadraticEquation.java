@@ -1,3 +1,5 @@
+package Quadratic;
+
 import java.util.Scanner;
 
 public class QuadraticEquation {

@@ -60,12 +60,12 @@ public class FanMyClass {
         }
     }
     public static void main(String[] args) {
-        FanMyClass fan1 = new FanMyClass(ON,FAST,10,"yellow");
+        FanMyClass fan1 = new FanMyClass(true,FAST,10,"yellow");
         System.out.println(fan1.toString());
 
         FanMyClass fan2 = new FanMyClass(false,SLOW,5,"blue");
         System.out.println(fan2.toString());
-        fan2.setRadius(10);
+        fan2.setON(true);
         System.out.println(fan2.toString());
     }
 }
